@@ -1,4 +1,4 @@
-package org.aksw.rdf2java.jena;
+package org.aksw.rdf2java.jena.example.model;
 
 import java.util.Optional;
 

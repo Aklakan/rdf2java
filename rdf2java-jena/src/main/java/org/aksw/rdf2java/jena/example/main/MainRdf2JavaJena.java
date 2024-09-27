@@ -1,5 +1,7 @@
-package org.aksw.rdf2java.jena;
+package org.aksw.rdf2java.jena.example.main;
 
+import org.aksw.rdf2java.jena.example.model.Person;
+import org.aksw.rdf2java.jena.example.model.Pet;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.riot.RDFDataMgr;

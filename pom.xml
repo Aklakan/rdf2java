@@ -64,26 +64,33 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-bom</artifactId>
+				<version>${slf4j.version}</version>
+				<scope>import</scope>
+				<type>pom</type>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.logging.log4j</groupId>
+				<artifactId>log4j-bom</artifactId>
+				<version>${log4j.version}</version>
+				<scope>import</scope>
+				<type>pom</type>
+			</dependency>			
+			
+			<dependency>
 				<groupId>org.apache.jena</groupId>
 				<artifactId>jena-arq</artifactId>
 				<version>${jena.version}</version>
 			</dependency>
-			<dependency>
-				<groupId>org.apache.jena</groupId>
-				<artifactId>jena-serviceenhancer</artifactId>
-				<version>${jena.version}</version>
-			</dependency>
 
 			<dependency>
 				<groupId>org.aksw.jenax</groupId>
-				<artifactId>jenax-reprogen-core</artifactId>
+				<artifactId>jenax-bom</artifactId>
 				<version>${jenax.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>org.aksw.jenax</groupId>
-				<artifactId>jenax-graphql-v2</artifactId>
-				<version>${jenax.version}</version>
+				<scope>import</scope>
+				<type>pom</type>
 			</dependency>
 
 			<dependency>

@@ -1,0 +1,30 @@
+PREFIX eg: <http://www.example.org/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+eg:Anne
+  a foaf:Person ;
+  foaf:name "Anne" ;
+  .
+
+eg:Bob
+  a foaf:Person ;
+  foaf:name "Bob" ;
+  .
+
+
+eg:JohnDoe
+  a foaf:Person ;
+  foaf:firstName "John" ;
+  foaf:lastName "Doe" ;
+  .
+
+eg:JaneDoe
+  a foaf:Person ;
+  foaf:firstName "Jane" ;
+  foaf:lastName "Doe" ;
+  foaf:knows eg:JohnDoe, eg:Anne ;
+  .
+  
+
+  
+

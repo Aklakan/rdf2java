@@ -1,15 +1,14 @@
-package org.aksw.rdf2java.jena;
+package org.aksw.rdf2java.jena.example.model;
 
 import java.util.List;
 
 import org.aksw.jenax.annotation.reprogen.Iri;
 import org.aksw.jenax.annotation.reprogen.IriNs;
 import org.aksw.jenax.annotation.reprogen.Namespace;
-import org.apache.jena.rdf.model.Resource;
 
 @Namespace("http://www.example.org/")
 public interface Person
-    extends Resource
+    extends Agent
 {
     @IriNs
     String getFirstName();

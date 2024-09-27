@@ -1,1 +1,2 @@
-org.aksw.rdf2java.jena.plugin.JenaPluginExample
+org.aksw.rdf2java.jena.example.plugin.JenaPluginExample
+org.aksw.rdf2java.jena.datev.plugin.JenaPluginDatev
